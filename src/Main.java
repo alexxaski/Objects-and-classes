@@ -18,5 +18,6 @@ public class Main {
         System.out.println(PussInBoots.getTitle() + " " + PussInBoots.getYearOfPublication()
                 + " " + PussInBoots.getAuthor() + " " + CharlesPerrault.getName()
                 + " " + CharlesPerrault.getSurname());
+
     }
 }

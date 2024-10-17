@@ -9,7 +9,6 @@
             this.yearOfPublication = yearOfPublication;
             this.author = author;
         }
-
         public Author getAuthor() {
             return author;
         }
