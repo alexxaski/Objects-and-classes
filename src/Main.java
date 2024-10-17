@@ -21,6 +21,7 @@ public class Main {
                 + " " + PussInBoots.getAuthor() + " " + CharlesPerrault.getName()
                 + " " + CharlesPerrault.getSurname());
 
+
         System.out.println(WarAndPeace.equals(PussInBoots));
         System.out.println(LevTolstoy.equals(CharlesPerrault));
         System.out.println(WarAndPeace);
@@ -28,6 +29,7 @@ public class Main {
         /*Доброго времени , вроде все сделал
         только не понимаю как реализовать хеш код в сстем аут принт,
         и нужно ли это делать???*/
+
 
     }
 }
