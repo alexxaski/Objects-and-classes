@@ -1,3 +1,5 @@
+import java.util.concurrent.atomic.AtomicStampedReference;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -18,6 +20,16 @@ public class Main {
         System.out.println(PussInBoots.getTitle() + " " + PussInBoots.getYearOfPublication()
                 + " " + PussInBoots.getAuthor() + " " + CharlesPerrault.getName()
                 + " " + CharlesPerrault.getSurname());
+
+
+        System.out.println(WarAndPeace.equals(PussInBoots));
+        System.out.println(LevTolstoy.equals(CharlesPerrault));
+        System.out.println(WarAndPeace);
+        System.out.println(CharlesPerrault);
+        /*Доброго времени , вроде все сделал
+        только не понимаю как реализовать хеш код в сстем аут принт,
+        и нужно ли это делать???*/
+
 
     }
 }
